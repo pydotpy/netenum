@@ -228,7 +228,7 @@ class CustomScan:
                         '{0}-sF {1}= FIN'.format(yellow, reset),
                         '{0}-sA {1}= ACK'.format(yellow, reset),
                         '{0}-sX {1}= XMAS'.format(yellow, reset),
-                        '{0}-b {1}= FTP Bounce'.format(yellow, reset),
+                        '{0}-b {1}= FTP Bounce {2}(WARNING: DO NOT USE. FEATURE STILL BEING TESTED'.format(yellow, reset, red),
                         '{0}-sI {1}= Idle {2}(Must specify a zombie host)'.format(yellow, reset, Fore.LIGHTYELLOW_EX),
                         '{0}-sM {1}= Maimon'.format(yellow, reset),
                         '{0}-sW {1}= TCP Window'.format(yellow, reset)]
@@ -266,7 +266,8 @@ class CustomScan:
         elif so1_input == 6:
             self.so1 = '-sX'  # XMAS Scan
         elif so1_input == 7:
-            self.so1 = '-b'  # FTP Bounce Scan
+            # self.so1 = '-b'  # FTP Bounce Scan
+            self.select_scan_option_1()
         elif so1_input == 8:
             self.select_zombie()  # Idle Scan
         elif so1_input == 9:
@@ -418,7 +419,7 @@ class CustomScan:
 
     def decoy_cloaking(self):
         """User is displayed decoy cloaking help"""
-        
+
         print()
         print('A "decoy" scan can make it appear to the target that the host(s) {0}you specify as decoys are scanning '
               'the target too. Thus, their IDS might {0}report 5-10 port scans from unique IP addresses, but '
