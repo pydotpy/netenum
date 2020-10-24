@@ -2,7 +2,7 @@
 netenum.py is a learning and instructions tool in Kali Linux for individuals who are unfamiliar with nmap. 
 
 # Features
-Includes the following:
+Includes the following:<br>
 <b>Intensity Levels</b>
   <ul>
     <il>paranoid</il>
