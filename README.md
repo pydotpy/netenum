@@ -6,70 +6,70 @@ Includes the following:<br>
 <b>Intensity Levels</b>
 
 <ul>
-  <il>paranoid</il>
-  <il>sneaky</il>
-  <il>polite</il>
-  <il>normal</il>
-  <il>aggressive</il>
-  <il>insane</il>
+  <li>paranoid</li>
+  <li>sneaky</li>
+  <li>polite</li>
+  <li>normal</li>
+  <li>aggressive</li>
+  <li>insane</li>
 </ul>
   
 <b>Port Probing Options</b>
 
 <ul>
-  <il>all ports</il>
-  <il>common ports</il>
-  <il>specific ports</il>
-  <il>port ranges</il>
+  <li>all ports</li>
+  <li>common ports</li>
+  <li>specific ports</li>
+  <li>port ranges</li>
 </ul>
 
 <b>TCP Scanning Techniques</b>
  
 <ul>
-  <il>TCP Connect Scan</il>
-  <il>SYN Stealth Scan</il>
-  <il>Null Scan</il>
-  <il>FIN Scan</il>
-  <il>ACK Scan</il>
-  <il>XMAS Scan</il>
-  <il>FTP Bounce Scan <i>(STILL BEING TESTED)</i></il>
-  <il>Idle Scan <i>(Must specify a zombie host to use</i></il>
-  <il>Maimon Scan</il>
-  <il>TCP Window Scan</il>
+  <li>TCP Connect Scan</li>
+  <li>SYN Stealth Scan</li>
+  <li>Null Scan</li>
+  <li>FIN Scan</li>
+  <li>ACK Scan</li>
+  <li>XMAS Scan</li>
+  <li>FTP Bounce Scan <i>(STILL BEING TESTED)</i></li>
+  <li>Idle Scan <i>(Must specify a zombie host to use</i></li>
+  <li>Maimon Scan</li>
+  <li>TCP Window Scan</li>
 </ul>
  
 <b>Other Scanning Techniques</b>
 
 <ul>
-  <il>OS Detection</il>
-  <il>UDP Scan</il>
-  <il>Version Detection</il>
+  <li>OS Detection</li>
+  <li>UDP Scan</li>
+  <li>Version Detection</li>
 </ul>
 
 <b>Other Firewall Evasion and Spoofing Options</b>
  
 <ul>
-  <il>Decoy Cloaking</il>
-  <il>Source IP address Spoofing <i>(Still testing. Feature might be discontinued for nmap)</i></il>
-  <il>Source Port Spoofing</il>
-  <il>MAC Spoofing <i>(Still testing. Feature might be discontinued for nmap)</i></il>
-  <il>Invalid Bogus TCP/UDP checksums</il>
+  <li>Decoy Cloaking</li>
+  <li>Source IP address Spoofing <i>(Still testing. Feature might be discontinued for nmap)</i></li>
+  <li>Source Port Spoofing</li>
+  <li>MAC Spoofing <i>(Still testing. Feature might be discontinued for nmap)</i></li>
+  <li>Invalid Bogus TCP/UDP checksums</li>
 </ul>
 
 # Future Additions:
 <b>NSE scripts</b>
   
 <ul>
-  <il>http-enum.nse</il>
-  <il>http-grep.nse</il>
-  <il>ssh-brute.nse</il>
-  <il>dns-brute.nse</il>
-  <il>http-config-backup.nse</il>
-  <il>vulscan.nse</il>
-  <il>smb-enum-users.nse</il>
-  <il>http-wordpress-enum.nse</il>
-  <il>firewalk.nse</il>
-  <il>mysql-empty-password.nse</il>
-  <il>mysql-users.nse</il>
-  <il>mysql-brute.nse</il>
+  <li>http-enum.nse</li>
+  <li>http-grep.nse</li>
+  <li>ssh-brute.nse</li>
+  <li>dns-brute.nse</li>
+  <li>http-config-backup.nse</li>
+  <li>vulscan.nse</li>
+  <li>smb-enum-users.nse</li>
+  <li>http-wordpress-enum.nse</li>
+  <li>firewalk.nse</li>
+  <li>mysql-empty-password.nse</li>
+  <li>mysql-users.nse</li>
+  <li>mysql-brute.nse</li>
 </ul>
