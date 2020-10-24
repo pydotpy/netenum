@@ -29,7 +29,7 @@ netenum.py is a learning and instructions tool in Kali Linux for individuals who
   <li>ACK Scan</li>
   <li>XMAS Scan</li>
   <li>FTP Bounce Scan <i>(STILL BEING TESTED)</i></li>
-  <li>Idle Scan <i>(Must specify a zombie host to use</i></li>
+  <li>Idle Scan <i>(Must specify a zombie host to use)</i></li>
   <li>Maimon Scan</li>
   <li>TCP Window Scan</li>
 </ul>
