@@ -2,9 +2,7 @@
 netenum.py is a learning and instructions tool in Kali Linux for individuals who are unfamiliar with nmap. 
 
 # Features
-Includes the following:<br>
-<b>Intensity Levels</b>
-
+<b>Intensity Levels:</b>
 <ul>
   <li>paranoid</li>
   <li>sneaky</li>
@@ -14,8 +12,7 @@ Includes the following:<br>
   <li>insane</li>
 </ul>
   
-<b>Port Probing Options</b>
-
+<b>Port Probing Options:</b>
 <ul>
   <li>all ports</li>
   <li>common ports</li>
@@ -23,8 +20,7 @@ Includes the following:<br>
   <li>port ranges</li>
 </ul>
 
-<b>TCP Scanning Techniques</b>
- 
+<b>TCP Scanning Techniques:</b>
 <ul>
   <li>TCP Connect Scan</li>
   <li>SYN Stealth Scan</li>
@@ -38,16 +34,14 @@ Includes the following:<br>
   <li>TCP Window Scan</li>
 </ul>
  
-<b>Other Scanning Techniques</b>
-
+<b>Other Scanning Techniques:</b>
 <ul>
   <li>OS Detection</li>
   <li>UDP Scan</li>
   <li>Version Detection</li>
 </ul>
 
-<b>Other Firewall Evasion and Spoofing Options</b>
- 
+<b>Other Firewall Evasion and Spoofing Options:</b>
 <ul>
   <li>Decoy Cloaking</li>
   <li>Source IP address Spoofing <i>(Still testing. Feature might be discontinued for nmap)</i></li>
@@ -57,8 +51,7 @@ Includes the following:<br>
 </ul>
 
 # Future Additions:
-<b>NSE scripts</b>
-  
+<b>NSE scripts:</b>
 <ul>
   <li>http-enum.nse</li>
   <li>http-grep.nse</li>
